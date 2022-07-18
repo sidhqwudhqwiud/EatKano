@@ -5,7 +5,7 @@ CREATE TABLE `kano_rank` (
   `name` varchar(255) NOT NULL,
   `time` datetime NOT NULL,
   `system` varchar(255) NOT NULL,
-  `area` varchar(255) NOT NULL,
+  `area` varchar(5000) NOT NULL,
   `message` varchar(255) NOT NULL,
   `attempts` int(11) NOT NULL,
   PRIMARY KEY (`id`),
